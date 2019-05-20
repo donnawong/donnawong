@@ -21,7 +21,10 @@ div.a:hover {
     cursor: pointer;
     opacity: .9;
 }
-
+.dock{
+  max-width: 350px;
+  margin-top: -20px;
+}
 a.clickable {
     position: absolute;
     width: 100%;
@@ -127,8 +130,9 @@ h4{
   font-weight: 550;
   font-size:1.5em;
   text-transform: uppercase;
-
 }
+
+
 .imagesNext{
     float: left;
     width: 50%;
@@ -330,7 +334,7 @@ position: relative;
 }
 
 header {
-  padding: 4em 0;
+  padding: 3em 0;
 }
 @media screen and (max-width: 768px) {
   header {
@@ -341,10 +345,10 @@ header .fh5co-navbar-brand {
   float: left;
 }
 header .fh5co-navbar-brand .fh5co-logo {
-  font-size: 35px;
-  text-transform: uppercase;
+  font-size: 24px;
+ 
   color: #000;
-  font-weight: 300;
+  font-weight: 500;
 }
 header .fh5co-navbar-brand .fh5co-logo:hover {
   text-decoration: none !important;
@@ -472,7 +476,8 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 #fh5co-portfolio-section, #fh5co-intro-section,
 #fh5co-services-section, #fh5co-contact-section,
 #fh5co-team-section {
-  padding-bottom: 5em;
+  padding-top:1.3em;
+  padding-bottom: 1em;
 }
 .fh5co-services ul li{
   font-size: 18px;
@@ -482,7 +487,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   padding-bottom: 50px;
 }
 #fh5co-intro-section {
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   padding-bottom: 3em;
 }
 .contain-contain{
@@ -501,7 +506,7 @@ font-size: 16px;
 
 }
 .intro-heading {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 300;
   line-height: 1.4;
   margin-bottom: 0;
@@ -528,6 +533,7 @@ font-size: 16px;
 }
 #filters {
   padding: 0;
+  margin-top:30px;
   list-style: none;
 }
 #filters li {
@@ -549,6 +555,8 @@ font-size: 16px;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   width: 33.33%;
+  margin:0;
+  padding:0.5%;
   display: none;
   float: left;
   overflow: hidden;

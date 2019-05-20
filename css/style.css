@@ -129,7 +129,6 @@ h4{
   color: #3872C7;
   font-weight: 550;
   font-size:1.5em;
-  text-transform: uppercase;
 }
 
 
@@ -346,7 +345,6 @@ header .fh5co-navbar-brand {
 }
 header .fh5co-navbar-brand .fh5co-logo {
   font-size: 24px;
- 
   color: #000;
   font-weight: 500;
 }
